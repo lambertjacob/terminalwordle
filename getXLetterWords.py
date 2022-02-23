@@ -6,7 +6,7 @@ X = 6
 f = open("words.txt", "w")
 
 for word in english_words_lower_set:
-    if(len(word) == 6):
+    if(len(word) == X):
         s = word + "\n"
         f.write(s)
 
